@@ -59,5 +59,5 @@ Follow these steps to get Heimdall running on your local Linux or WSL environmen
 
 ### Clone the Repository
 ```bash
-git clone [https://github.com/YOUR_USERNAME/heimdall-active-defense.git](https://github.com/YOUR_USERNAME/heimdall-active-defense.git)
+git clone [https://github.com/Naren-bit/Heimdall-DDOS-The-Autonomous-Network-Intrusion-Detction-Active-Defense-System](https://github.com/Naren-bit/Heimdall-DDOS-The-Autonomous-Network-Intrusion-Detction-Active-Defense-System)
 cd heimdall-active-defense
