@@ -42,5 +42,17 @@ All of this is visualized on a cinematic, "Hacker-Style" dashboard that gives se
 
 ---
 
-## 🚀 Getting Started
-*(Add your installation steps here)*
+## Installation & Setup
+
+Follow these steps to get Heimdall running on your local Linux or WSL environment.
+
+### Prerequisites
+* **Node.js** (v18 or higher)
+* **Python** (v3.10 or higher)
+* **MongoDB** (Must be installed locally)
+* **Root/Sudo Access** (Required for packet sniffing)
+
+### Clone the Repository
+```bash
+git clone [https://github.com/YOUR_USERNAME/heimdall-active-defense.git](https://github.com/YOUR_USERNAME/heimdall-active-defense.git)
+cd heimdall-active-defense
