@@ -5,6 +5,11 @@
 ![Tech Stack](https://img.shields.io/badge/Stack-Python_%7C_Node.js_%7C_React_%7C_MongoDB-blue?style=for-the-badge)
 ![License](https://img.shields.io/badge/License-MIT-orange?style=for-the-badge)
 
+## Contributors
+
+* **Naren Moorthy S** - *Backend & Active Defense Engine* - https://github.com/Naren-bit
+* **Sarigasini M** - *Lead Frontend Developer (React)* - https://github.com/Sariga-2005
+
 ## Overview
 **Heimdall** is a next-generation Network Intrusion Detection & Prevention System (NIDS/IPS) designed to bridge the gap between simple traffic logging and active threat mitigation. 
 
