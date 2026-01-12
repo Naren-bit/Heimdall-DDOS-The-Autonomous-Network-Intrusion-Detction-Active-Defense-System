@@ -1,0 +1,45 @@
+============================================================
+🛡️ HEIMDALL - ACTIVE DEFENSE SYSTEM (NIDS/IPS)
+============================================================
+Architecture: Python (Scapy) + Node.js + React + MongoDB
+
+------------------------------------------------------------
+1. START THE DATABASE
+------------------------------------------------------------
+Open Terminal 1:
+$ sudo service mongod start
+
+------------------------------------------------------------
+2. START THE BACKEND (The Bridge)
+------------------------------------------------------------
+Open Terminal 2:
+$ cd backend
+$ node server.js
+> Server running on port 5000...
+
+------------------------------------------------------------
+3. START THE DASHBOARD (The UI)
+------------------------------------------------------------
+Open Terminal 3:
+$ cd fronntend
+$ npm run dev
+> Local: http://localhost:5173/
+
+------------------------------------------------------------
+4. START THE DEFENSE ENGINE (The Brain)
+------------------------------------------------------------
+Open Terminal 4:
+$ cd ai-engine
+$ source venv/bin/activate
+$ sudo ./venv/bin/python main.py
+> 🔥 HEIMDALL ACTIVE DEFENSE SYSTEM STARTED...
+
+------------------------------------------------------------
+⚡ HOW TO SIMULATE AN ATTACK
+------------------------------------------------------------
+Open Terminal 5 and run this command:
+
+sudo ./venv/bin/python -c "from scapy.all import send, IP, TCP; send(IP(src='1.2.3.4', dst='YOUR_PC_IP')/TCP(dport=80), count=50)"
+
+* Replace 'YOUR_PC_IP' with your actual IP from 'ip a'.
+* Result: Dashboard turns RED, and Python sends 'Kill Packets'.
